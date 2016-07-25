@@ -413,6 +413,7 @@ ul.projects {
     &.root {
         margin: 0;
         padding: 0;
+        @include content-columns(4, 1em);
     }
 
     li {
@@ -427,6 +428,11 @@ ul.projects {
 
     li.root {
         margin-bottom: $line-height-computed;
+        border: 1px solid #DDD;
+        border-radius: 4px;
+        padding: 5%;
+        width: 90%;
+ 	display: inline-block;
     }
 
     li.child {
