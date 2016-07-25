@@ -35,9 +35,9 @@ $gray-light:                    lighten($gray-base, 17%) !default;
 $gray-lighter:                  lighten($gray-base, 35%) !default;
 $gray-lightest:                 lighten($gray-base, 46%) !default;
 
-$brand-primary:                 #584492 !default;
+$brand-primary:                 #392f2b !default;
 $brand-text:                    #fff !default;
-$brand-accent:                  #deddef !default;
+$brand-accent:                  darken($brand-text, 15%) !default; 
 
 $brand-success:                 #019851 !default;
 $brand-info:                    #409ae3 !default;
@@ -328,7 +328,7 @@ $legend-border-color:           #e5e5e5 !default;
 //== Top
 //
 
-$top-menu-bg:                   darken($brand-primary, 15%) !default;
+$top-menu-bg:                   #534741 !default;
 $top-menu-text:                 $brand-accent !default;
 $top-menu-link:                 $brand-accent !default;
 $top-menu-link-hover:           $brand-text !default;
