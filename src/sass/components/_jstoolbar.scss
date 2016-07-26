@@ -4,6 +4,8 @@
 
 .jstElements {
     @extend %clearfix;
+    
+    float: none !important; // fix wsywig toolbar in firefox
 
     .box & {
         padding: 0;
