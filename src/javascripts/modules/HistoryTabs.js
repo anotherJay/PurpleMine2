@@ -15,6 +15,11 @@ PurpleMine.HistoryTabs = (function()
             all    : "Wszystko",
             notes  : "Notatki",
             details: "Zmiany"
+        },
+        fr: {
+            all    : "Tout",
+            notes  : "Notes",
+            details: "Détails"
         }
     };
 
